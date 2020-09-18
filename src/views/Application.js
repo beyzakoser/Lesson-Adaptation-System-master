@@ -14,6 +14,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import Copyright from '../components/Copyright';
 
+
 import ApplicationLessonTable from '../components/ApplicationLessonTable'
 import MaterialTable from "material-table";
 import {useHistory} from "react-router";
@@ -83,7 +84,7 @@ export default function Application() {
         { name: 'Bilgisayar Mühendisliği'},
         { name: 'Biyomedikal Mühendisliği'},
         { name: 'Elektrik Elektronik Mühendisliği'},
-        { name: 'İnşaat Mühendisliği'},
+        // { name: 'İnşaat Mühendisliği'},
     ];
 
     const [state, setState] = React.useState({
